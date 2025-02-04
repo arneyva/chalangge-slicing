@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@config "../tailwind.config.js";
+@layer base {
+  @font-face {
+    font-family: 'Open Sauce Sans';
+    src: url("../public/font/OpenSauceSans-Regular.ttf") format("truetype");
+  }
+ 
+}
